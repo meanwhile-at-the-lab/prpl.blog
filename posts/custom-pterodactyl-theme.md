@@ -16,11 +16,11 @@ First you'll need to install [Blueprint](https://blueprint.zip) — the extensio
 
 After getting Blueprint up and running, open up your admin panel and navigate to Blueprint’s settings. Set “**Developer Mode**” to **enabled** and press “**Save**”.
 
-![](https://cdn-images-1.medium.com/max/3134/1*izxX7WtJmNC1d60w8rC_YQ.png)
+![](./images/custom-pterodactyl-theme/developer-mode.png)
 
 Now **open up your terminal** and **SSH into your server**. Run the `blueprint -init` command and enter some information about your extension. Select “Barebones” as the template in case it asks for that.
 
-![](https://cdn-images-1.medium.com/max/2474/1*kqH-Ku8FSyW5iBa9aq-lKg.png)
+![](./images/custom-pterodactyl-theme/init.png)
 
 Navigate to your extension development directory with “**cd /var/www/pterodactyl/.blueprint/dev**” (might be different depending on how much you wandered off Pterodactyl’s installation documentation) and take a peek at the files. You’ve now set up the foundation of your first Pterodactyl theme!
 
@@ -46,19 +46,19 @@ Now that we’ve done our preparations — onto creating your theme!
 
 Open up your Pterodactyl panel and press “CTRL SHIFT I” to open inspect element. Use this to pick an element from the page with the picker tool (which you can also trigger with “CTRL SHIFT C”).
 
-![](https://cdn-images-1.medium.com/max/2524/1*zUGJKYJvnQVn57XrrWmCzg.png)
+![](./images/custom-pterodactyl-theme/inspect-element.png)
 
 Now that you’ve picked an element, right click it in inspect and select “Copy > CSS Selector”. This will copy a CSS Selector that will only pick that specific element, you might want to pick elements based on their “classes” instead for some more advanced modifications.
 
-![](https://cdn-images-1.medium.com/max/2000/1*eaDkIe8KZLyBIHoQjNqzUw.png)
+![](./images/custom-pterodactyl-theme/copy-selector.png)
 
 Now paste it between the \<style> tags and add some CSS properties to it, such as demonstrated below.
 
-![](https://cdn-images-1.medium.com/max/2000/1*TSCy3otgPFsAKTSYueawMw.png)
+![](./images/custom-pterodactyl-theme/style.png)
 
 Save the file and run `blueprint -build` on your server and watch stuff change on your panel! If something isn’t overwriting the default Pterodactyl styling, you can add “!important” at the end of a CSS property, like done below.
 
-![](https://cdn-images-1.medium.com/max/2000/1*zz_UugFzEByrzZfcEUBe-g.png)
+![](./images/custom-pterodactyl-theme/style2.png)
 
 Do this for every element you want to style and you’ll be able to put together your very own Blueprint-based theme! If you want a head-start, you can also use the “Theming fundamentals” template when initializing your extension, which might help you modify more elements at once.
 
