@@ -1,6 +1,13 @@
 - Title: The future of Pterodactyl themes is here — Nebula v2
   Description: Permanently raising the bar for Pterodactyl themes.
   Topic: pterodactyl
-  Thumbnail: nebula-v2/thumbnail.png
+  Thumbnail: nebula-v2/thumbnail.jpg
   Content: nebula-v2.md
+  Discoverable: true
+
+- Title: How to make your own Pterodactyl theme — the basics.
+  Description: Permanently raising the bar for Pterodactyl themes.
+  Topic: pterodactyl
+  Thumbnail: custom-pterodactyl-theme/thumbnail.jpg
+  Content: custom-pterodactyl-theme.md
   Discoverable: true
