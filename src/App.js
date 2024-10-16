@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", (async () => {
   }, 10); 
 }))
 
-function Error() {
+function WriteaError() {
   ModifyAppTitle()
   ProgressBar(100)
   return App.innerHTML = `An unknown error occured, check your browser console for more information.`
