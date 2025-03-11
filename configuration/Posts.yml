@@ -1,3 +1,10 @@
+- Title: Adding a RPI camera to my printer
+  Description: Emma's first time actually using proper CAD software
+  Topic: 3d-printing
+  Thumbnail: camera-mount/thumbnail.jpg
+  Content: camera-mount.md
+  Discoverable: false
+
 - Title: Are birds real?
   Description: Has the government lied to us all this time?
   Topic: satire
@@ -6,14 +13,14 @@
   Discoverable: true
 
 - Title: The future of Pterodactyl themes is here — Nebula v2
-  Description: Permanently raising the bar for Pterodactyl themes.
+  Description: Permanently raising the bar for Pterodactyl themes
   Topic: pterodactyl
   Thumbnail: nebula-v2/thumbnail.jpg
   Content: nebula-v2.md
   Discoverable: true
 
-- Title: How to make your own Pterodactyl theme — the basics.
-  Description: The very first steps of creating Pterodactyl themes.
+- Title: How to make your own Pterodactyl theme — the basics
+  Description: The very first steps of creating Pterodactyl themes
   Topic: pterodactyl
   Thumbnail: custom-pterodactyl-theme/thumbnail.jpg
   Content: custom-pterodactyl-theme.md
